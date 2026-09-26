@@ -27,6 +27,7 @@ Welding can no longer magically repair windows, walls, and other things.
 
 ### Hoses and Cables
 Hoses and cables will be a connection between a cart and something else. Hoses can carry reagents and gasses while cables carry electricity. Hoses and cables can only extend a certain distance, beyond which they snap. Hoses should spill some amount of their contents before a valve on the cart automatically shuts requiring manual intervention to re-open, while cables should be hazardous to touch or walk past for anyone without sufficient insulation for their voltage. They should also electricute water and grates in the same way a wire under them does. Electrocuting something should drain power from the cart with the batteries and heat the gas around it.
+
 ### Sealant Foam (and Cart)
 Sealant Foam is a new reagent that can be applied via certain items to damaged windows, doors, and other structures to restore some amount of health. It cannot completely repair anything. Once permeability is added (TODO: IS THIS A WIP OR SOMETHING I SHOULD ADD TO THIS DOC) sealant will not be able to completely restore impermeability to a damaged structure. Sealant foam will come in small cartridges that can be inserted into nozzles and in a cart that can be connected to a nozzle via hose.
 
@@ -40,7 +41,7 @@ Accordion curtains should initially function as a normal inert pullable object. 
 Gas carts are gas canister carts. They come in oxygen, nitrogen, and storage varieties.
 
 ### Water Cart
-Water carts can be connected via hose to firefighting nozzles. Water can also be taken out of them to fill any container, including decapoid gas tanks.
+Water carts can be connected via hose to firefighting nozzles. Water can also be taken out of them to fill any container, including decapoid gas tanks. Water tanks cannot be refilled. The cart itself will have a slot for a large watercooler style water takm to fit. The water tank can be removed with a doafter and stamina cost proportional to how full it is. Movement speed when holding a water tank will also scale with fullness. Water tanks will have to be held with both hands. Slipping or crawling while holding a water tank will cause it to fall and rarely shatter and spill, otherwise it'll bounce and roll away with fun sounds. Maps should have a few spare water tanks in engineering. New water tanks can be bought.
 
 ### Pull Cart and Caravans
 Sometimes a single repair might require multiple carts. Two carts next to each other can be connected via a context menu action such that one is "pulling" the other at their sprited coupling. Multiple carts can be connected like this in a caravan. Eventually a caravan might be too heavy to pull. The pull cart is a small vehicle that can be attached to a caravan to pull it. The pull cart runs off of an internal battery and can be connected via a cable to other carts or equipment.
