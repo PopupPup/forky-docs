@@ -1,6 +1,6 @@
-| Designers | Coders | Implemented | GitHub Links |
-| --------- | ------ | ----------- | ------------ |
-| PopUpPup  | TBD    | :x: No      | TBD          |
+| Designers | Coders   | Implemented | GitHub Links |
+|-----------|----------|-------------|--------------|
+| PopUpPup  | PopUpPup | :x: No      | TBD          |
 
 ## I. Summary
 
@@ -12,14 +12,15 @@ The job of the engineering department can be summarized as maintaining station h
 
 ## III. Intent
 
- This rework aims to make station repairs a slower, more impactful, and immersive part of the game in a way that brings engineers out of their department to interact with crew. These changes would also make station damage a much more impactful part of the round, giving, for example, a bomb going off the impact it deserves on roundflow. Locking station repairs behind considerable equipment would also give engineering more leverage in union negotiations, bringing tension to the round. A large number of these changes also increase engineering's usage of materials, leading to more dependance on (and interaction with) supply (and prisoner salvage). All of this would give engineers more to do and integrate the department better with the rest of the game.
+ This rework aims to make station repairs a slower, more impactful, and immersive part of the game in a way that brings engineers out of their department to interact with crew. These changes would also make station damage a much more impactful part of the round, giving, for example, a bomb going off the impact it deserves on roundflow. Locking station repairs behind considerable equipment would also give engineering more leverage in union negotiations, bringing tension to the round. A large number of these changes also increase engineering's usage of materials, leading to more dependance on (and interaction with) supply (and prisoner salvage). All of this would give engineers more to do and integrate the department better with the rest of the game. Bringing engineers out of their department such that the station is constantly undergoing repairs would also fit themetically with the idea of an uncaring coporation placing you on the cheapest viable station for your job.
+
 ## IV. Solution
 
 ### Less Portable Materials
 Stack sizes should be decreased, item sizes should be increased, or both.
 
 ### The Material Cart
-The material cart would have slots for materials. It should carry more materials than a duffle bag. It allows materials to be input into it similar to a silo until a certain limit on total materials is reached. Materials are retrieved similar to a silo with a different UI. Keep in mind that in-universe this is a cart on which materials are put in stacks. It is basically a fancy wheel barrow- the ui should not be a computer. Take inspiration from the new vending machine UI. Whether it can store more than a crate being pulled along the ground is irrelevant because it can move much quicker because it has wheels.
+The material cart would have slots for materials. It should carry more materials than a duffle bag. It allows materials to be input into it similar to a silo until a certain limit on total materials is reached. Materials are retrieved similar to a silo with a different UI. Keep in mind that in-universe this is a cart on which materials are put in stacks. It is basically a fancy wheelbarrow- the ui should not be a computer. Take inspiration from the new vending machine UI. Whether it can store more than a crate being pulled along the ground is irrelevant because it can move much quicker because it has wheels.
 
 ### Limited Welding
 Welding can no longer magically repair windows, walls, and other things.
@@ -58,6 +59,7 @@ Some construction processes should become more complex and involve steps like we
 
 ## Degrading machines
 Machines like computers, medical cryopods, doors, and vending machines will slowly break down and require repairs. The repairs required will depend on the machine. Most repairs would be a simple swap of the board (eg: doors, computers) while others would require other things (eg: sealent applied to cryopods)
+
 ## V. Considerations
 ### Technical
 * A component for caravan-able carts would have to be implemented
