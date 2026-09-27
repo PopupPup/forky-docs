@@ -70,6 +70,7 @@ With the removal of welding fuel P.A.C.M.A.N. generators become pretty much usle
 * A component for reagent and gas hoses would have to be implemented
 * Electrical cables would have to be implemented
 To make these changes come into play more often gamerules might have to be changed, such as by increasing the likelihood of meteor strikes.
+* Some chemistry recipes will have to be updated to not rely on welding fuel
 
 ### Admin
 People could use welders to mass blind people. Admins would have to decide how to deal with this, if at all.
