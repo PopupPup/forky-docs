@@ -53,7 +53,7 @@ The battery cart is a battery. It can be connected via cable to other carts or e
 With the duration of repairs it might be nice to set up lighting for particularly large jobs (eg: the aftermath of a supermatter delamination). Lights can be battery powered or connected to a power source like a battery cart, the pull cart, or a power jack.
 
 ### Power Infrastructure
-Maintenance should be mapped to have power jacks at entrances and somewhat throughout. These can be used to power equipment like lights and charge the battery cart and power cart. Engineering should also have some to charge those carts while not in use.
+Maintenance should be mapped to have power jacks at entrances and somewhat throughout. These can be used to power equipment like lights and charge the battery cart and power cart. Engineering should also have some to charge those carts while not in use. Maintainance jacks should be connected to MV cables.
 
 ### Construction Changes
 Some construction processes should become more complex and involve steps like welding, especially things like basic walls.
@@ -61,12 +61,16 @@ Some construction processes should become more complex and involve steps like we
 ## Degrading machines
 Machines like computers, medical cryopods, doors, and vending machines will slowly break down and require repairs. The repairs required will depend on the machine. Most repairs would be a simple swap of the board (eg: doors, computers) while others would require other things (eg: sealent applied to cryopods). Machine degredation should be tuned alongside meteor spawns and other sources of station destruction such that they provide a small amount of tedium in down-time between larger repairs like those neccesitated by meteors to fit the theme of being a cog in the machine without making the game boring.
 
+## Emergency generators
+With the removal of welding fuel P.A.C.M.A.N. generators become pretty much usless. P.A.C.M.A.N. and S.U.P.E.R.P.A.C.M.A.N. generators should be removed and replaced by the emergency generator, which runs off of a welding cart via a hose. They should output M.V. power and connect via a maintainance jack.
+
 ## V. Considerations
 ### Technical
 * A component for caravan-able carts would have to be implemented
 * A component for reagent and gas hoses would have to be implemented
 * Electrical cables would have to be implemented
 To make these changes come into play more often gamerules might have to be changed, such as by increasing the likelihood of meteor strikes.
+
 ### Admin
 People could use welders to mass blind people. Admins would have to decide how to deal with this, if at all.
 
