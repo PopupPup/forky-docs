@@ -59,7 +59,7 @@ Maintenance should be mapped to have power jacks at entrances and somewhat throu
 Some construction processes should become more complex and involve steps like welding, especially things like basic walls.
 
 ## Degrading machines
-Machines like computers, medical cryopods, doors, and vending machines will slowly break down and require repairs. The repairs required will depend on the machine. Most repairs would be a simple swap of the board (eg: doors, computers) while others would require other things (eg: sealent applied to cryopods)
+Machines like computers, medical cryopods, doors, and vending machines will slowly break down and require repairs. The repairs required will depend on the machine. Most repairs would be a simple swap of the board (eg: doors, computers) while others would require other things (eg: sealent applied to cryopods). Machine degredation should be tuned alongside meteor spawns and other sources of station destruction such that they provide a small amount of tedium in down-time between larger repairs like those neccesitated by meteors to fit the theme of being a cog in the machine without making the game boring.
 
 ## V. Considerations
 ### Technical
