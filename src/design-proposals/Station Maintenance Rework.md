@@ -53,7 +53,7 @@ The battery cart is a battery. It can be connected via cable to other carts or e
 With the duration of repairs it might be nice to set up lighting for particularly large jobs (eg: the aftermath of a supermatter delamination). Lights can be battery powered or connected to a power source like a battery cart, the pull cart, or a power jack.
 
 ### Power Infrastructure
-Maintenance should be mapped to have power jacks at entrances and somewhat throughout. These can be used to power equipment like lights and charge the battery cart and power cart. Engineering should also have some to charge those carts while not in use. Maintainance jacks should be connected to MV cables.
+Maintenance should be mapped to have power jacks at entrances and somewhat throughout. These can be used to power equipment like lights and charge the battery cart and power cart. Engineering should also have some to charge those carts while not in use. Maintainance jacks should be connected to MV cables. The power jack should come loose if the wire is pulled past max length causing small arks, it should electrify puddles over it, and generally be "shit."
 
 ### Construction Changes
 Some construction processes should become more complex and involve steps like welding, especially things like basic walls.
