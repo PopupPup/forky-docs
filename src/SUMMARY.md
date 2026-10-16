@@ -49,6 +49,7 @@ Proposals
   - [Security Training Manual](design-proposals/security-training-manual.md)
   - [Department Unions](design-proposals/unions.md)
 
+
 - [Map Proposals]()
 
 Structure
